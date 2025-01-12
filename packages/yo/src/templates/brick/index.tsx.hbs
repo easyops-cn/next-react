@@ -1,0 +1,47 @@
+import React from "react";
+import { createDecorators } from "@next-core/element";
+import { ReactNextElement } from "@next-core/react-element";
+import "@next-core/theme";
+{{#if useI18n}}
+import { initializeI18n } from "@next-core/i18n";
+import { K, NS, locales, t } from "./i18n.js";
+{{/if}}
+import styleText from "./styles.shadow.css";
+
+{{#if useI18n}}
+initializeI18n(NS, locales);
+
+{{/if}}
+const { defineElement, property } = createDecorators();
+
+export interface {{>className}}Props {
+  // Define props here.
+}
+
+/**
+ * 构件 `{{>tagName}}`
+ */
+export
+@defineElement("{{>tagName}}", {
+  styleTexts: [styleText],
+})
+class {{>className}} extends ReactNextElement implements {{>className}}Props {
+  render() {
+    return (
+      <{{>className}}Component />
+    );
+  }
+}
+
+export interface {{>className}}ComponentProps extends {{>className}}Props {
+  // Define react event handlers here.
+}
+
+export function {{>className}}Component(props: {{>className}}ComponentProps) {
+{{#if useI18n}}
+  const hello = t(K.HELLO);
+  return <div>{hello} world!</div>;
+{{else}}
+  return <div>It works!</div>;
+{{/if}}
+}

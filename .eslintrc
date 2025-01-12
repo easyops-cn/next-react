@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": "@next-core/eslint-config-next",
+  "overrides": [
+    {
+      "files": [
+        "packages/yo/**/*.js"
+      ],
+      "extends": "@next-core/eslint-config-next/node"
+    }
+  ]
+}
