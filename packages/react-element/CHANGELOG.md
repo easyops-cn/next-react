@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-dev.0 (2025-01-12)
+
+### Features
+
+- upgrade to react 19 ([8a4244b](https://github.com/easyops-cn/next-react/commit/8a4244bc4dbc9d87b961730e8b1c955f88669391))
+
+### BREAKING CHANGES
+
+- upgrade to react 19
+
 # [2.0.0-canary.0](https://github.com/easyops-cn/next-core/compare/@next-core/react-element@1.0.35...@next-core/react-element@2.0.0-canary.0) (2025-01-12)
 
 ### Features
