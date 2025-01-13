@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/easyops-cn/next-react/compare/@next-core/yo@2.0.0-dev.0...@next-core/yo@2.0.0) (2025-01-13)
+
+**Note:** Version bump only for package @next-core/yo
+
 # 2.0.0-dev.0 (2025-01-12)
 
 ### Features
