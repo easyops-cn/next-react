@@ -93,6 +93,7 @@ jobs:
       uses: easyops-cn/actions-next-publish-from-tags@master
       with:
         npm-token: ${{ secrets.NPM_TOKEN }}
+        dist-tag: next
       if: github.event_name == 'push' && github.ref_name == 'master'
 
     - name: Sync taobao npm mirror
