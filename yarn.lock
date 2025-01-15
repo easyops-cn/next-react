@@ -1805,10 +1805,10 @@
   resolved "https://registry.npmjs.org/@next-core/browserslist-config-next/-/browserslist-config-next-1.1.2.tgz#bbf32adeae9d3ded190b821e269d3853bd73019f"
   integrity sha512-KFBCCsPCxo7Bv+m23ZgpFL40qRsDnIgfYDhluXP6k7gvN2bZRTvsOn5S6dqCEpHiX9BT5p/+/JcgJ4tPTAjfxg==
 
-"@next-core/build-next-bricks@^1.23.9":
-  version "1.23.9"
-  resolved "https://registry.npmjs.org/@next-core/build-next-bricks/-/build-next-bricks-1.23.9.tgz#c747594f30d72435181fdc8e8c6f7fc12a75fb29"
-  integrity sha512-5NuD2+hTdko+dF+efYOmIwYiZoA0ABdRNGj+kqOwyrpNDZS1OU3346LR8O3WvqvDwISlmKvymJKSdcd5vs7skw==
+"@next-core/build-next-bricks@^1.23.10":
+  version "1.23.10"
+  resolved "https://registry.npmjs.org/@next-core/build-next-bricks/-/build-next-bricks-1.23.10.tgz#bc10897cb2b908aff82a657c54eb0740e9469daf"
+  integrity sha512-E5KkQURGTqBgiGTMKricU8BueO2gnqHZ3TjpzylqfoVI4zOVqGOQ3Ymxr0b1IrBPTq5Nc+C3lDR46hl2d/ghTQ==
   dependencies:
     "@babel/parser" "^7.26.5"
     "@babel/traverse" "^7.26.5"
