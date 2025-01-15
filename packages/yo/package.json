@@ -25,7 +25,7 @@
     "plop": "^4.0.1"
   },
   "devDependencies": {
-    "@next-core/build-next-bricks": "^1.23.9",
+    "@next-core/build-next-bricks": "^1.23.10",
     "@next-core/build-next-libs": "^1.0.23",
     "@next-core/element": "^1.2.16",
     "@next-core/i18n": "^1.0.73",
