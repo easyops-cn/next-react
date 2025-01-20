@@ -1,6 +1,6 @@
 # Brick Next React
 
-[![CI Status](https://github.com/easyops-cn/next-react/actions/workflows/ci.yml/badge.svg?event=push&branch=master)](https://github.com/easyops-cn/next-react/actions?query=workflow%3ACI+branch%3Amaster)
+[![CI Status](https://github.com/easyops-cn/next-react/actions/workflows/ci.yml/badge.svg?event=push&branch=master)](https://github.com/easyops-cn/next-react/actions/workflows/ci.yml?query=branch%3Amaster)
 [![Coverage Status](https://codecov.io/gh/easyops-cn/next-react/branch/master/graph/badge.svg?token=XSPIZ7X5WH)](https://app.codecov.io/gh/easyops-cn/next-react/tree/master)
 
 ## 贡献指南
