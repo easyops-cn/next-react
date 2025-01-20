@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@next-core/react-element": "^2.0.0",
-    "@next-core/runtime": "^1.59.1",
+    "@next-core/runtime": "^1.59.2",
     "@next-core/types": "^1.14.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
